@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Compétence | Portfolio</title>
+    <meta name="description" content="Détail d'une compétence du BUT Informatique d'Arthur Chartier.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="detail-page">
+    <canvas class="particles" id="particles" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+        <a class="brand" href="index.html">Arthur Chartier</a>
+        <nav class="main-nav" aria-label="Navigation principale">
+            <a href="index.html#presentation">Accueil</a>
+            <a href="index.html#competences">Compétences</a>
+            <a href="index.html#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="panel detail-page" id="detail-top">
+            <div class="detail-hero detail-hero--single">
+                <a class="cta-button secondary detail-back-button detail-back-top" href="index.html" aria-label="Retour à la page principale du portfolio">
+                    <span class="button-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" role="presentation" focusable="false">
+                            <path d="M10 18l-6-6 6-6"></path>
+                            <path d="M4 12h16"></path>
+                        </svg>
+                    </span>
+                    <span>
+                        <strong>Retour</strong>
+                        <span>Page principale</span>
+                    </span>
+                </a>
+
+                <article class="card detail-card reveal">
+                    <p class="eyebrow" id="detail-code">Compétence BUT</p>
+                    <h1 id="detail-title">Compétence</h1>
+                    <p class="lead detail-summary" id="detail-summary"></p>
+                    <p id="detail-description"></p>
+                </article>
+            </div>
+        </section>
+
+        <section class="panel" id="detail-projects">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Projets associés</p>
+                <h2 id="projects-title">SAE et travaux liés</h2>
+            </div>
+
+            <div id="detail-project-grid" class="project-grid"></div>
+
+            <a class="cta-button secondary detail-back-button detail-back-bottom" href="index.html" aria-label="Retour à la page principale du portfolio">
+                <span class="button-icon" aria-hidden="true">
+                    <svg viewBox="0 0 24 24" role="presentation" focusable="false">
+                        <path d="M10 18l-6-6 6-6"></path>
+                        <path d="M4 12h16"></path>
+                    </svg>
+                </span>
+                <span>
+                    <strong>Retour</strong>
+                    <span>Page principale</span>
+                </span>
+            </a>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+    <script src="competence.js"></script>
+</body>
+</html>

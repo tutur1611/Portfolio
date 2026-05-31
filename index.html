@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arthur Chartier | Portfolio</title>
+    <meta name="description" content="Portfolio d'Arthur Chartier, étudiant en BUT Informatique à l'IUT de Lannion, en recherche d'alternance en développement web ou embarqué.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600;9..144,700&family=Space+Grotesk:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <canvas class="particles" id="particles" aria-hidden="true"></canvas>
+
+    <header class="site-header">
+        <a class="brand" href="#presentation">Arthur Chartier</a>
+        <nav class="main-nav" aria-label="Navigation principale">
+            <a href="#presentation">Présentation</a>
+            <a href="#competences">Compétences BUT</a>
+            <a href="#skills">Skills</a>
+            <a href="#parcours">Parcours</a>
+            <a href="#complements">Compléments</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="panel hero" id="presentation">
+            <div class="card hero-copy reveal">
+                <p class="eyebrow">Portfolio | Alternance 2026</p>
+                <h1>Développeur en formation, entre web, systèmes embarqués et esprit d'initiative.</h1>
+                <p class="lead">
+                    Je suis Arthur Chartier, étudiant en première année de BUT Informatique à l'IUT de Lannion.
+                    Je recherche une alternance en développement web ou embarqué, avec l'envie de construire des projets utiles,
+                    propres et concrets.
+                </p>
+                <div class="hero-actions">
+                    <a class="cta-button primary" href="assets/cv-arthur-chartier.pdf" target="_blank" rel="noopener noreferrer">
+                        <span class="button-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" focusable="false">
+                                <path d="M7 3h7l5 5v13H7z"></path>
+                                <path d="M14 3v6h6"></path>
+                                <path d="M9.5 14.5c1.2-1.7 3-2.6 5.5-2.7"></path>
+                                <path d="M13.5 10.8 15 11.8 16.4 10.6"></path>
+                            </svg>
+                        </span>
+                        <span class="button-copy">
+                            <strong>Visualiser mon CV</strong>
+                            <small>Ouvrir la version PDF</small>
+                        </span>
+                    </a>
+                    <a class="cta-button secondary" href="assets/cv-arthur-chartier.pdf" download>
+                        <span class="button-icon" aria-hidden="true">
+                            <svg viewBox="0 0 24 24" focusable="false">
+                                <path d="M12 4v10"></path>
+                                <path d="m8.5 11.5 3.5 3.5 3.5-3.5"></path>
+                                <path d="M5 18.5h14"></path>
+                            </svg>
+                        </span>
+                        <span class="button-copy">
+                            <strong>Télécharger mon CV</strong>
+                            <small>Récupérer le PDF localement</small>
+                        </span>
+                    </a>
+                </div>
+                <div class="hero-metrics">
+                    <div>
+                        <span>Formation actuelle</span>
+                        <strong>BUT Informatique</strong>
+                    </div>
+                    <div>
+                        <span>Recherche</span>
+                        <strong>Alternance web ou embarqué</strong>
+                    </div>
+                    <div>
+                        <span>Localisation</span>
+                        <strong>Lannion</strong>
+                    </div>
+                </div>
+            </div>
+
+            <aside class="card portrait-card reveal">
+                <div class="portrait-frame">
+                    <img class="portrait-photo" src="images/photo/oui1.JPG" alt="Photo d'Arthur Chartier">
+                </div>
+                <div class="portrait-details">
+                    <h2>Profil</h2>
+                    <p>
+                        Curieux, autonome et à l'aise dans le travail d'équipe, j'ai construit un parcours atypique
+                        entre enseignement, informatique et entrepreneuriat.
+                    </p>
+                    <ul class="quick-list">
+                        <li>Président fondateur de Praxis</li>
+                        <li>Statut étudiant-entrepreneur</li>
+                        <li>Anglais B2</li>
+                    </ul>
+                </div>
+            </aside>
+        </section>
+
+        <section class="panel" id="competences">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Programme BUT Informatique</p>
+                <h2>Six compétences reliées à mes projets</h2>
+                <p>
+                    Cette section met en relation les compétences du BUT avec mes expériences de stage,
+                    mes projets académiques et mes réalisations techniques.
+                </p>
+            </div>
+
+            <div class="grid two-columns competency-grid">
+                <a class="card competency competency-link reveal" href="competence.html?c=developpement" aria-label="Ouvrir la page détaillée de la compétence 1, Réaliser un développement d'application">
+                    <h3>1. Réaliser un développement d'application</h3>
+                    <p>Concevoir et implémenter une solution répondant à un besoin utilisateur.</p>
+                    <p class="example">Exemples : Sokoban en C et développement d'un site statique.</p>
+                </a>
+                <a class="card competency competency-link reveal" href="competence.html?c=optimisation" aria-label="Ouvrir la page détaillée de la compétence 2, Optimiser des applications">
+                    <h3>2. Optimiser des applications</h3>
+                    <p>Produire un code plus fiable, lisible et adapté à son contexte d'utilisation.</p>
+                    <p class="example">Exemples : exploration algorithmique d'un problème et mise en place d'un site dynamique avec environnement Apache.</p>
+                </a>
+                <a class="card competency competency-link reveal" href="competence.html?c=systemes" aria-label="Ouvrir la page détaillée de la compétence 3, Administrer des systèmes communicants">
+                    <h3>3. Administrer des systèmes communicants</h3>
+                    <p>Comprendre l'environnement technique, le déploiement et les contraintes matérielles.</p>
+                    <p class="example">Exemples : environnement de travail Bash/PHP/Docker et déploiement d'un service réseau web Apache.</p>
+                </a>
+                <a class="card competency competency-link reveal" href="competence.html?c=donnees" aria-label="Ouvrir la page détaillée de la compétence 4, Gérer des données de l'information">
+                    <h3>4. Gérer des données de l'information</h3>
+                    <p>Collecter, structurer, manipuler et exploiter des données utiles à un projet.</p>
+                    <p class="example">Exemples : conception d'une base TutorialD et travail SQL sur requêtes et organisation de données.</p>
+                </a>
+                <a class="card competency competency-link reveal" href="competence.html?c=projet" aria-label="Ouvrir la page détaillée de la compétence 5, Conduire un projet">
+                    <h3>5. Conduire un projet</h3>
+                    <p>Organiser le travail, définir des objectifs et avancer de manière claire et pragmatique.</p>
+                    <p class="example">Exemples : gestion de projet avec planification et suivi d'avancement, puis pilotage d'un projet Praxis.</p>
+                </a>
+                <a class="card competency competency-link reveal" href="competence.html?c=collaboration" aria-label="Ouvrir la page détaillée de la compétence 6, Collaborer au sein d'une équipe informatique">
+                    <h3>6. Collaborer au sein d'une équipe informatique</h3>
+                    <p>Travailler efficacement avec d'autres profils, communiquer et contribuer à un objectif commun.</p>
+                    <p class="example">Exemples : pilotage de la Junior-Entreprise via Trello et collaboration en entreprise pendant le stage.</p>
+                </a>
+            </div>
+        </section>
+
+        <section class="panel" id="skills">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Compétences</p>
+                <h2>Soft skills et hard skills</h2>
+                <p>
+                    Un profil technique gagne en impact lorsqu'il est porté par une bonne communication,
+                    de l'autonomie et une vraie capacité d'adaptation.
+                </p>
+            </div>
+
+            <div class="grid skills-layout">
+                <article class="card reveal">
+                    <h3>Hard skills</h3>
+                    <ul class="tag-list">
+                        <li>HTML</li>
+                        <li>CSS</li>
+                        <li>JavaScript</li>
+                        <li>Java</li>
+                        <li>PHP</li>
+                        <li>Python</li>
+                        <li>C</li>
+                        <li>Bash</li>
+                        <li>SQL</li>
+                        <li>Bootstrap</li>
+                        <li>API REST</li>
+                        <li>Arduino</li>
+                        <li>Raspberry Pi</li>
+                    </ul>
+                </article>
+
+                <article class="card reveal">
+                    <h3>Outils</h3>
+                    <ul class="tag-list muted">
+                        <li>Visual Studio Code</li>
+                        <li>WAMP</li>
+                        <li>SQL Workbench</li>
+                        <li>Figma</li>
+                        <li>Tkinter</li>
+                        <li>Git</li>
+                    </ul>
+                </article>
+
+                <article class="card reveal">
+                    <h3>Soft skills</h3>
+                    <ul class="quality-list">
+                        <li>Autonomie et sens des responsabilités</li>
+                        <li>Travail en équipe et gestion de groupe</li>
+                        <li>Communication professionnelle</li>
+                        <li>Écoute active et adaptabilité</li>
+                        <li>Curiosité et ouverture d'esprit</li>
+                    </ul>
+                </article>
+            </div>
+        </section>
+
+        <section class="panel" id="parcours">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Chronologie</p>
+                <h2>Formation, expériences et direction future</h2>
+                <p>Une lecture verticale de mon parcours, de mes bases jusqu'aux objectifs que je vise aujourd'hui.</p>
+            </div>
+
+            <div class="timeline">
+                <article class="timeline-item card reveal">
+                    <span class="date">2020 - 2021</span>
+                    <h3>Baccalauréat STAV</h3>
+                    <p>Option aménagement et valorisation des espaces, Lycée agricole de Suscinio à Ploujean.</p>
+                </article>
+                <article class="timeline-item card reveal">
+                    <span class="date">2021 - 2022</span>
+                    <h3>Titre professionnel d'Animateur d'équitation</h3>
+                    <p>Formation au CFPPA de Kernilien à Guingamp, avec une forte dimension pédagogique et terrain.</p>
+                </article>
+                <article class="timeline-item card reveal">
+                    <span class="date">2022 - 2024</span>
+                    <h3>Moniteur d'équitation et missions d'intérim</h3>
+                    <p>Encadrement, responsabilité, adaptation à des contextes variés, manutention et restauration.</p>
+                </article>
+                <article class="timeline-item card reveal">
+                    <span class="date">Octobre 2023</span>
+                    <h3>Stage au laboratoire IRISA</h3>
+                    <p>Récupération de données de capteurs et interface de visualisation avec Python, Tkinter et Arduino.</p>
+                </article>
+                <article class="timeline-item card reveal">
+                    <span class="date">Mars 2024</span>
+                    <h3>Stage chez Stephano</h3>
+                    <p>Développement d'un système de capteurs pour une cave à vin connectée avec Arduino.</p>
+                </article>
+                <article class="timeline-item card reveal">
+                    <span class="date">2024 - 2025</span>
+                    <h3>BTS SIO option SLAM</h3>
+                    <p>Formation accélérée en informatique au GRETA CFA des Côtes-d'Armor.</p>
+                </article>
+                <article class="timeline-item card reveal">
+                    <span class="date">Avril 2025</span>
+                    <h3>Stage chez ISITIX</h3>
+                    <p>Documentation technique pour l'intégration d'un logiciel sur Raspberry Pi 4.</p>
+                </article>
+                <article class="timeline-item card reveal">
+                    <span class="date">2025 - 2026</span>
+                    <h3>Première année de BUT Informatique</h3>
+                    <p>Approfondissement du développement, des bases système, de la donnée et du travail en mode projet.</p>
+                </article>
+                <article class="timeline-item card future reveal">
+                    <span class="date">Futur</span>
+                    <h3>Objectifs</h3>
+                    <p><strong>Court terme :</strong> intégrer une alternance formatrice en développement web ou embarqué.</p>
+                    <p><strong>Moyen terme :</strong> consolider mes compétences techniques et participer à des projets concrets à impact.</p>
+                    <p><strong>Long terme :</strong> évoluer vers un profil capable d'enseigner grâce à son expérience technique.</p>
+                </article>
+            </div>
+        </section>
+
+        <section class="panel" id="complements">
+            <div class="section-heading reveal">
+                <p class="eyebrow">Plus personnel</p>
+                <h2>Engagements, centres d'intérêt et contact</h2>
+                <p>Les éléments qui complètent mon profil et donnent du relief à mon parcours.</p>
+            </div>
+
+            <div class="grid two-columns">
+                <article class="card reveal">
+                    <h3>Engagements</h3>
+                    <p>Président fondateur de Praxis, la Junior-Entreprise de l'IUT de Lannion.</p>
+                    <p>Statut national d'étudiant-entrepreneur avec Pepite Bretagne.</p>
+                </article>
+                <article class="card reveal">
+                    <h3>Centres d'intérêt</h3>
+                    <ul class="quality-list compact">
+                        <li>Équitation, pratique et enseignement</li>
+                        <li>Musique</li>
+                        <li>Éloquence</li>
+                        <li>Entrepreneuriat</li>
+                    </ul>
+                </article>
+                <article class="card reveal">
+                    <h3>Langues</h3>
+                    <p>Français : langue maternelle</p>
+                    <p>Anglais : niveau B2</p>
+                </article>
+                <article class="card reveal availability-card">
+                    <h3>Disponibilité</h3>
+                    <p>Disponible pour une alternance en développement web ou embarqué.</p>
+                    <p>Ouvert aux échanges avec les entreprises, équipes techniques et recruteurs.</p>
+                </article>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer" id="contact">
+        <div class="footer-shell reveal">
+            <div class="footer-intro">
+                <p class="eyebrow">Contact</p>
+                <h2>Parlons alternance, projets et opportunités</h2>
+                <p>
+                    Si mon profil vous intéresse, vous pouvez me contacter directement par mail ou me retrouver sur mes réseaux.
+                </p>
+            </div>
+
+            <div class="footer-actions">
+                <a class="footer-link-card" href="mailto:arthurchartierpro@gmail.com">
+                    <span class="footer-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" focusable="false">
+                            <path d="M3.5 6.5h17v11h-17z"></path>
+                            <path d="M4.5 7.5 12 13l7.5-5.5"></path>
+                        </svg>
+                    </span>
+                    <span>
+                        <strong>Email</strong>
+                        <small>arthurchartierpro@gmail.com</small>
+                    </span>
+                </a>
+
+                <a class="footer-link-card" href="#" aria-disabled="true">
+                    <span class="footer-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" focusable="false">
+                            <path d="M6.8 9.5v8"></path>
+                            <path d="M6.8 6.8h.01"></path>
+                            <path d="M11 17.5v-4.6c0-1.6.9-2.5 2.2-2.5 1.2 0 1.9.8 1.9 2.5v4.6"></path>
+                            <path d="M3.8 3.8h16.4v16.4H3.8z"></path>
+                        </svg>
+                    </span>
+                    <span>
+                        <strong>LinkedIn</strong>
+                        <small>Lien à renseigner</small>
+                    </span>
+                </a>
+
+                <a class="footer-link-card" href="#" aria-disabled="true">
+                    <span class="footer-icon" aria-hidden="true">
+                        <svg viewBox="0 0 24 24" focusable="false">
+                            <path d="M9 18.5c-3.8 1.1-3.8-2.2-5.3-2.7"></path>
+                            <path d="M14.5 20v-2.8c0-.9.1-1.5-.4-2.1 1.8-.2 3.7-.9 3.7-4.1 0-.9-.3-1.7-.9-2.3.1-.2.4-1.1-.1-2.2 0 0-.7-.2-2.4.9a8.5 8.5 0 0 0-4.4 0c-1.7-1.1-2.4-.9-2.4-.9-.5 1.1-.2 2-.1 2.2-.6.6-.9 1.4-.9 2.3 0 3.2 1.9 3.9 3.7 4.1-.5.6-.5 1.2-.5 2.1V20"></path>
+                        </svg>
+                    </span>
+                    <span>
+                        <strong>GitHub</strong>
+                        <small>Lien à renseigner</small>
+                    </span>
+                </a>
+            </div>
+
+            <div class="footer-meta">
+                <p>Arthur Chartier</p>
+                <p>BUT Informatique | Recherche d'alternance web ou embarqué</p>
+                <p>Copyright © 2026 Arthur Chartier. Tous droits réservés.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
