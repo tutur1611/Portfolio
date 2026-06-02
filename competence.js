@@ -121,7 +121,7 @@ const competenceData = {
             {
                 code: "C5P2",
                 title: "Praxis",
-                summary: "Pilotage d'un projet entrepreneurial avec répartition des rôles, coordination et suivi opérationnel.",
+                summary: "Pilotage d'un projet entrepreneurial avec répartition des taches, communication et promotion.",
                 tech: "Organisation, communication, coordination",
                 image: "images/competences/praxis.png",
                 imageAlt: "Capture du projet Praxis",
